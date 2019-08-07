@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#main-body-wrapper {
+    width: 100wh;
+    height: calc(100vh - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+#main-photo-wrapper {
+    width: 450px;
+    height: 30%;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+
+#main-photo-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#central-content {
+    margin: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    #main-photo-wrapper { 
+        width: 350px;
+        height: auto;
+    }
+}
